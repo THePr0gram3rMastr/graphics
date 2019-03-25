@@ -148,7 +148,7 @@ int main(int argc, char** argv, char** envp) {
 
   std::cout << "The player has moved!" << std::endl;
 
-  printUpdatedPos(&newXPos, &newYPos, &newZPos);
+  printUpdatedPos<float>(&newXPos, &newYPos, &newZPos);
 
   Vec3<float> vec2(7, 4, 5);
 
